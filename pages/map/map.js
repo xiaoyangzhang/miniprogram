@@ -12,7 +12,7 @@ exports.main = (event, context) => {
 Page({
    data: {
     markers: [{
-      iconPath: "/resources/others.png",
+      iconPath: "../resources/others.png",
       id: 0,
       latitude: 23.099994,
       longitude: 113.324520,
@@ -33,7 +33,7 @@ Page({
     }],
     controls: [{
       id: 1,
-      iconPath: '/resources/location.png',
+      iconPath: '../resources/location.png',
       position: {
         left: 0,
         top: 300 - 50,
@@ -63,13 +63,13 @@ Page({
   },
 
   markertap: function() {
-    wx.getLocation({
+    /* wx.getLocation({
       type: 'gcj02 ',
       success: (res) => {
         var latitude = res.latitude // 纬度
         var longitude = res.longitude // 经度
       }
-    })
+    }) */
   },
 
   testFunction() {

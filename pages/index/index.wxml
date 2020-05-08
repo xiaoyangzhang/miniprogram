@@ -7,9 +7,6 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
   <view class="uploader">
     <navigator url="../map/map" open-type="navigate" class="uploader-text">
       <text>地图</text>
