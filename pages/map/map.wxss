@@ -1,3 +1,8 @@
-/* pages/addFunction/addFunction.wxss */
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
 
-/* @import "../../style/guide.wxss"; */
+.page-body-button {
+  margin-bottom: 30rpx;
+}
